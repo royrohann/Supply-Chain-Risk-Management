@@ -1,5 +1,5 @@
-Supply Chain Risk Modelling
-Quantitative country & corridor risk scoring using WorldRiskIndex data, engineered features, and ML/DL forecasting
+Supply Chain Risk Modelling: Quantitative country & corridor risk scoring using WorldRiskIndex data, engineered features, and ML/DL forecasting
+
 Overview
 This project builds a quantitative framework for assessing supply chain corridor risk at the country level. The core question it tries to answer is - how reliable a route is, as a logistics node, and how catastrophic its unavailability would be for the broader trade network.
 The pipeline runs across three notebooks: data preparation, feature engineering & modelling, and visualization. It produces a composite country risk score that integrates five engineered risk dimensions with a strategic supply chain concentration layer, validated through both classical ML classifiers and an LSTM forecasting model.
